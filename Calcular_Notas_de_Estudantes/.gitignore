@@ -1,0 +1,10 @@
+
+node_modules/
+
+arqivo.txt
+
+eslint.config.mjs
+
+package-lock.json
+
+package.json

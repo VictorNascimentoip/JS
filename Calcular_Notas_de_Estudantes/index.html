@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule as notas dos estudantes</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+</head>
+<body>
+
+    <header>
+        <img src="/icon/js.png" alt="Logo da empresa">
+        <h1>Calcule as notas dos estudantes em um processo seletivo.</h1>
+    </header>
+
+    <br>
+
+    <form id="formulario">
+        <label for="nota1">Acertos na prova:</label>
+        <input type="number" id="nota1" name="nota1" required>
+
+        <label for="nota2">Semestres cursados:</label>
+        <input type="number" id="nota2" name="nota2" required>
+
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" name="resultado" readonly>
+
+        <button id="calcular" type="button">Calcular</button>
+        <button id="limpar" type="button">Limpar</button>
+    </form>
+    <script src="/JS/index.js"></script>
+</body>
+</html>
